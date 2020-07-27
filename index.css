@@ -1,32 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: url(images/background.jpg) 100% no-repeat;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#nav-bar {
-        
-        display: block;
-        width: 980px;
-        height: 36px;
-        margin: 18px auto;
-        position: relative;
-        text-align: left;
-        z-index: 9998;
-        border-radius: 4px;
-        box-shadow: rgba(0,0,0, 0.3) 0 1px 2px;
-        font: 12px/18px"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+body {
+  background: url(images/background.jpg) 100% 105% no-repeat;
+}
 
-        
-      }
-      
-      li {
-        float: left;
-        display: block;
-        padding: 8px;
-        background-color: #dddddd;
-        position: relative; 
-      }
+.w3-black {
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 150px;
+  width: 980px;
+}
 
+#verse {
+  display: block;
+}
+
+h1 img {
+  text-decoration: none;
+  right: auto;
+  left: 50%;
+  margin-left: 350px;
+  margin-top: 150px;
+  width: 600px;
+}
+
+h2 img {
+  text-decoration: none;
+  right: auto;
+  left: 50%;
+  margin-left: 100px;
+  margin-top: 10px;
+  width: 1200px;
+  background: none;
+  background-size: auto;
+  background-size: 1440px 1315px;
+}
+
+h3 p {
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-left: 450px;
+  font: 20px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+h3 p .fa-play-circle-o {
+  color: whitesmoke;
+  font-size: 36px;
+}
