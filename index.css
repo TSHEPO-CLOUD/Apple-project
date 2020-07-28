@@ -5,14 +5,71 @@
 }
 
 body {
-  background: url(images/background.jpg) 100% 105% no-repeat;
+  background: url(images/background.jpg) 100% 92% no-repeat;
 }
 
-.w3-black {
-  display: inline-block;
+.w3-bar {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto  auto  auto  auto  auto  auto  auto  auto  auto;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(lightgrey, black);
   margin-top: 70px;
-  margin-left: 150px;
-  width: 980px;
+  margin-left: 155px;
+  width: 900px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.w3-bar ul {
+  display: table;
+  float: left;
+  width: 845px;
+  table-layout: fixed;
+  height: 36px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none outside;
+  list-style-position: outside;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size-adjust: none;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-variant-alternates: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-language-override: normal;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.w3-bar li {
+  color: whitesmoke;
+}
+
+.w3-bar > li {
+  display: table-cell;
+  overflow: hidden;
+  text-align: left;
+}
+
+form input {
+  float: left;
 }
 
 #verse {
@@ -24,7 +81,7 @@ h1 img {
   right: auto;
   left: 50%;
   margin-left: 350px;
-  margin-top: 150px;
+  margin-top: 50px;
   width: 600px;
 }
 
@@ -40,12 +97,20 @@ h2 img {
   background-size: 1440px 1315px;
 }
 
-h3 p {
+h3 {
   color: whitesmoke;
   margin-top: 50px;
   margin-left: 450px;
   font: 20px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   text-decoration: none;
+}
+
+h3 a:link {
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
 }
 
 h3 p .fa-play-circle-o {
