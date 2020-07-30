@@ -234,6 +234,10 @@ footer ul li:last-child {
 }
 
 .section-three {
-  font-size: 11px;
-  margin-left: 110px;
+  font-size: 12px;
+  margin-left: 90px;
+}
+
+.section-three p small {
+  font-size: 8px;
 }
