@@ -3,6 +3,7 @@ This is part of a series of projects to be completed by [Microverse](microverse.
 
 # Screenshot of the page
 ![screenshot](images/screenchot.png)
+![Features](https://github.com/TSHEPO-CLOUD/Apple-project/pull/2#issue-457246780)
 
 
 # Source Page:

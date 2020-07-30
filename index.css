@@ -111,14 +111,8 @@ ul {
   width: 25%;
 }
 
-.section-one a {
-  color: blue;
-}
-
-.section-two a {
-  color: blue;
-}
-
+.section-one a,
+.section-two a,
 .section-three a {
   color: blue;
 }
@@ -172,7 +166,7 @@ form input:focus + span {
   font-size: 40px;
 }
 
-.main {
+.set {
   padding-top: 40px;
 }
 
@@ -189,7 +183,6 @@ h3 {
 }
 
 .gallery {
-  grid-column: 1;
   width: 100%;
   flex: 1;
   justify-content: space-around;
@@ -207,6 +200,7 @@ footer {
 .section-three {
   width: 50%;
   float: left;
+  margin-top: -1px;
   min-height: 10px;
   font-size: 12px;
 }
