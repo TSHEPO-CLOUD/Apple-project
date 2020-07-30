@@ -64,14 +64,10 @@ ul {
 }
 
 .fa.fa-search {
-  color: #fff;
+  color:yellowgreen;
   padding-top: 5px;
 }
 
-.fa.fa-search:focus {
-  outline: none;
-  color: black;
-}
 
 .links i {
   font-size: 20px;
@@ -172,3 +168,65 @@ form input:focus + span {
 h3 {
   margin: 20px auto;
 }
+
+
+.gallery img {
+  border: 1px solid #fff;
+}
+.gallery a {
+  width: 25%;
+}
+
+
+.gallery {
+  grid-column: 1;
+  width: 100%;
+  flex: 1;
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 0px 0px 50px;
+}
+
+/* footer section */
+footer {
+  margin-top: 150px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  width: 50%;
+  float: left;
+  min-height: 10px;
+  font-size: 12px;
+}
+
+nav ul li,
+footer ul li {
+  text-align: center;
+  padding: 0 5px;
+  display: inline;
+  border-right: solid thin #333;
+}
+
+nav ul li:last-child,
+footer ul li:last-child {
+  border: none;
+}
+
+p {
+  margin-top: 6px;
+  
+}
+
+.section-three  {
+  font-size: 13px;
+  float: left;
+
+}
+
+
+
+
+
+
