@@ -10,7 +10,7 @@ This is part of a series of projects to be completed by [Microverse](microverse.
 This assignment consists of making [this](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
 # Live Version:
-The demo page can be found [here](https://raw.githack.com/TSHEPO-CLOUD/Apple-project/Apple-project/index.html)
+The demo page can be found [here](https://rawcdn.githack.com/TSHEPO-CLOUD/Apple-project/c2a3802ac9690c4108cdfcbdb81e0842b8d295cf/index.html)
 
 
 
