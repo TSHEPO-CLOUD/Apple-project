@@ -6,10 +6,10 @@ This is part of a series of projects to be completed by [Microverse](microverse.
 
 
 # Source Page:
-This assignment consists of making [this](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+This assignment consists of making [this](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
 # Live Version:
-The demo page can be found [here](https://raw.githack.com/dasileker/new-york-times/new-york/index.html)
+The demo page can be found [here](https://raw.githack.com/TSHEPO-CLOUD/Apple-project/Apple-project/index.html)
 
 
 
