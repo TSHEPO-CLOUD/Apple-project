@@ -64,10 +64,9 @@ ul {
 }
 
 .fa.fa-search {
-  color:yellowgreen;
+  color: yellowgreen;
   padding-top: 5px;
 }
-
 
 .links i {
   font-size: 20px;
@@ -106,6 +105,22 @@ ul {
 .links a {
   color: #fff;
   height: 32px;
+}
+
+.gallery a {
+  width: 25%;
+}
+
+.section-one a {
+  color: blue;
+}
+
+.section-two a {
+  color: blue;
+}
+
+.section-three a {
+  color: blue;
 }
 
 .links a:hover {
@@ -169,14 +184,9 @@ h3 {
   margin: 20px auto;
 }
 
-
 .gallery img {
   border: 1px solid #fff;
 }
-.gallery a {
-  width: 25%;
-}
-
 
 .gallery {
   grid-column: 1;
@@ -184,12 +194,12 @@ h3 {
   flex: 1;
   justify-content: space-around;
   overflow: hidden;
-  padding: 0px 0px 50px;
+  padding: 0 0 40px;
 }
 
 /* footer section */
 footer {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .section-one,
@@ -209,24 +219,21 @@ footer ul li {
   border-right: solid thin #333;
 }
 
+p {
+  margin-top: 4px;
+}
+
+.section-one p {
+  font-size: 10px;
+  text-align: center;
+}
+
 nav ul li:last-child,
 footer ul li:last-child {
   border: none;
 }
 
-p {
-  margin-top: 6px;
-  
+.section-three {
+  font-size: 11px;
+  margin-left: 110px;
 }
-
-.section-three  {
-  font-size: 13px;
-  float: left;
-
-}
-
-
-
-
-
-
